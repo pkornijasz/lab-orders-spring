@@ -1,9 +1,12 @@
 package pl.edu.wszib.labordersspring.order;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+@Repository
 public class InMemoryOrderRepository implements OrderRepository {
 
     private final Map<String, Order> ordersMap = new HashMap<>();
