@@ -2,6 +2,7 @@ package pl.edu.wszib.order;
 
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
+import pl.edu.wszib.labordersspring.order.*;
 
 import static org.junit.Assert.*;
 

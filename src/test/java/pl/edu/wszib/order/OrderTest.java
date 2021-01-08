@@ -1,6 +1,8 @@
 package pl.edu.wszib.order;
 
 import org.junit.jupiter.api.Test;
+import pl.edu.wszib.labordersspring.order.Order;
+import pl.edu.wszib.labordersspring.order.Position;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
