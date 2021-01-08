@@ -1,7 +1,7 @@
 package pl.edu.wszib.order;
 
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
 
 import static org.junit.Assert.*;
 
@@ -9,7 +9,7 @@ public class OrderServiceTest {
 
     private OrderService orderService;
 
-    @Before
+    @BeforeEach
     public void setup() {
         OrderRepository orderRepository = new InMemoryOrderRepository();
         orderService = new OrderService(orderRepository);
