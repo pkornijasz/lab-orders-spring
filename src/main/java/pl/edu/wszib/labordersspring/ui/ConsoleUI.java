@@ -81,7 +81,7 @@ public class ConsoleUI {
                 if (line.equals("0")) {
                     stillAdding = false;
                 } else {
-                    Integer chosenItemIndex = Integer.parseInt(line) - 1;
+                    int chosenItemIndex = Integer.parseInt(line) - 1;
                     if (chosenItemIndex < 0 || chosenItemIndex >= AVAILABLE_ITEMS.size()) {
                         System.out.println("Wybrałeś przedmiot spoza zakresu");
                     }
